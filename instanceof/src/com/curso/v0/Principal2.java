@@ -13,7 +13,8 @@ public class Principal2 {
 				
 		n1 = d1;
 		
-		//res = n1.isNaN();
+		if (n1 instanceof Double)
+			res = ((Double)n1).isNaN();
 		
 		
 	}

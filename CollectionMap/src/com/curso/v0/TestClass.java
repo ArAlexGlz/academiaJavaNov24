@@ -48,8 +48,12 @@ public class TestClass {
 		b3.setTitle("Book C");
 		b3.setIsbn("XYZ");
 		
-		System.out.println("b1.equals(b2): "+b1.equals(b2)); //false
+		Book b4 = b1;
+		
+		System.out.println("b1.equals(b2): "+b1.equals(b2)); //
 		System.out.println("b3.equals(b1): "+b3.equals(b1)); //true
+		System.out.println("b4.equals(b1): "+b4.equals(b1)); //true
+
 	}
 
 }

@@ -4,6 +4,7 @@ class Book {
 	
 	private String title, isbn;
 	
+	@Override
 	public boolean equals(Object o) {
 		boolean res = false;
 		res = (o instanceof Book &&

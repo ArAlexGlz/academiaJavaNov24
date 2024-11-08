@@ -68,7 +68,7 @@ public class TestClass {
 		System.out.println(bs.getNumberOfCopies(b)); //10
 		
 		b = new Book();
-		b.setIsbn("222");
+		b.setIsbn("111");
 		
 		System.out.println(bs.getNumberOfCopies(b)); //10
 

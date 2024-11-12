@@ -6,7 +6,7 @@ public class TestClass {
 		return a*2;
 	}
 	
-	public long methodA(int pato, int x) {
+	public long methodA(int pato,int a) {
 		return pato*2;
 	}
 

@@ -14,7 +14,7 @@ public class Helper2 {
 		Helper2.printException(new Exception("B"));
 		Helper2.<NullPointerException>printException(new NullPointerException ("D"));
 		
-		Helper2.printException(new Throwable("E"));
+		//Helper2.printException(new Throwable("E"));
 		
 		//Helper2.<Throwable>printException(new Exception("C"));
 		

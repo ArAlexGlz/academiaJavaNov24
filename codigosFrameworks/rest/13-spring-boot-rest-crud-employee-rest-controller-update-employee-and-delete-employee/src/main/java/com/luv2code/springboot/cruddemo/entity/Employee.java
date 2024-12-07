@@ -2,6 +2,8 @@ package com.luv2code.springboot.cruddemo.entity;
 
 import jakarta.persistence.*;
 
+//POJO: PLAIN OLD JAVA OBJECT
+
 @Entity
 @Table(name="employee")
 public class Employee {

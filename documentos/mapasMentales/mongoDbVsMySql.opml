@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+   <head>
+       <title>MySQL vs MongoDB</title>
+   </head>
+   <body>
+       <outline text="MySQL vs MongoDB">
+           <outline text="Modelo de Datos">
+               <outline text="MySQL">
+                   <outline text="Bases de datos relacionales"/>
+                   <outline text="Tablas con filas y columnas"/>
+                   <outline text="Esquema rígido"/>
+                   <outline text="Relaciones mediante claves foráneas"/>
+               </outline>
+               <outline text="MongoDB">
+                   <outline text="Base de datos documental"/>
+                   <outline text="Colecciones de documentos JSON"/>
+                   <outline text="Esquema flexible"/>
+                   <outline text="Documentos embebidos"/>
+               </outline>
+           </outline>
+           <outline text="Consultas">
+               <outline text="MySQL">
+                   <outline text="SQL estándar"/>
+                   <outline text="JOINs"/>
+                   <outline text="GROUP BY"/>
+                   <outline text="Subconsultas"/>
+               </outline>
+               <outline text="MongoDB">
+                   <outline text="Sintaxis JSON"/>
+                   <outline text="Aggregation Pipeline"/>
+                   <outline text="Map-Reduce"/>
+                   <outline text="Búsqueda por texto"/>
+               </outline>
+           </outline>
+           <outline text="Rendimiento">
+               <outline text="MySQL">
+                   <outline text="Optimizado para JOINs complejos"/>
+                   <outline text="Índices B-tree"/>
+                   <outline text="Transacciones ACID"/>
+                   <outline text="Mejor para actualizaciones frecuentes"/>
+               </outline>
+               <outline text="MongoDB">
+                   <outline text="Optimizado para grandes volúmenes"/>
+                   <outline text="Índices geoespaciales"/>
+                   <outline text="Sharding nativo"/>
+                   <outline text="Mejor para lecturas masivas"/>
+               </outline>
+           </outline>
+           <outline text="Escalabilidad">
+               <outline text="MySQL">
+                   <outline text="Principalmente vertical"/>
+                   <outline text="Replicación maestro-esclavo"/>
+                   <outline text="Particionamiento manual"/>
+                   <outline text="Clusters complejos"/>
+               </outline>
+               <outline text="MongoDB">
+                   <outline text="Horizontal nativo"/>
+                   <outline text="Replicación automática"/>
+                   <outline text="Sharding automático"/>
+                   <outline text="Auto-balanceo"/>
+               </outline>
+           </outline>
+           <outline text="Casos de Uso">
+               <outline text="MySQL">
+                   <outline text="Aplicaciones tradicionales"/>
+                   <outline text="Sistemas financieros"/>
+                   <outline text="E-commerce"/>
+                   <outline text="CRM y ERP"/>
+               </outline>
+               <outline text="MongoDB">
+                   <outline text="Aplicaciones en tiempo real"/>
+                   <outline text="Big Data"/>
+                   <outline text="Análisis de datos"/>
+                   <outline text="Contenido multimedia"/>
+               </outline>
+           </outline>
+           <outline text="Herramientas">
+               <outline text="MySQL">
+                   <outline text="MySQL Workbench"/>
+                   <outline text="phpMyAdmin"/>
+                   <outline text="HeidiSQL"/>
+                   <outline text="DBeaver"/>
+               </outline>
+               <outline text="MongoDB">
+                   <outline text="MongoDB Compass"/>
+                   <outline text="Studio 3T"/>
+                   <outline text="NoSQLBooster"/>
+                   <outline text="MongoDB Atlas"/>
+               </outline>
+           </outline>
+           <outline text="Seguridad">
+               <outline text="MySQL">
+                   <outline text="Sistema de privilegios GRANT"/>
+                   <outline text="SSL/TLS"/>
+                   <outline text="Autenticación por plugins"/>
+                   <outline text="Encriptación a nivel de tabla"/>
+               </outline>
+               <outline text="MongoDB">
+                   <outline text="Control de acceso basado en roles"/>
+                   <outline text="TLS/SSL"/>
+                   <outline text="Autenticación SCRAM"/>
+                   <outline text="Encriptación a nivel de campo"/>
+               </outline>
+           </outline>
+       </outline>
+   </body>
+</opml>

@@ -1,6 +1,8 @@
 1. questions2daVuelta.pdf
 2. questions3daVuelta
-3. JavaCuestionario4 (Consultora Externa)  
+3. JavaCuestionario4 (Consultora Externa)
+Simuladores OCP8 (Professional) 
+FlashCards Quizlet 
 _______________________________
 4ta SEMANA
 3A. Preguntas Paola.

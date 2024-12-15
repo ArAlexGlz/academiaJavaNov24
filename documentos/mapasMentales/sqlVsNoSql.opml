@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>SQL vs NoSQL</title>
+    </head>
+    <body>
+        <outline text="SQL vs NoSQL">
+            <outline text="Estructura">
+                <outline text="SQL">
+                    <outline text="Esquema fijo"/>
+                    <outline text="Tablas relacionales"/>
+                    <outline text="Filas y columnas predefinidas"/>
+                </outline>
+                <outline text="NoSQL">
+                    <outline text="Esquema flexible"/>
+                    <outline text="Documentos, grafos, clave-valor"/>
+                    <outline text="Estructura dinámica"/>
+                </outline>
+            </outline>
+            <outline text="Escalabilidad">
+                <outline text="SQL">
+                    <outline text="Vertical - Agregar recursos"/>
+                    <outline text="Más costoso de escalar"/>
+                </outline>
+                <outline text="NoSQL">
+                    <outline text="Horizontal - Agregar servidores"/>
+                    <outline text="Más fácil de distribuir"/>
+                </outline>
+            </outline>
+            <outline text="Consultas">
+                <outline text="SQL">
+                    <outline text="Lenguaje SQL estandarizado"/>
+                    <outline text="JOINs entre tablas"/>
+                    <outline text="Transacciones ACID"/>
+                </outline>
+                <outline text="NoSQL">
+                    <outline text="Lenguaje específico por BD"/>
+                    <outline text="No siempre soporta JOINs"/>
+                    <outline text="Eventual consistencia"/>
+                </outline>
+            </outline>
+            <outline text="Casos de Uso">
+                <outline text="SQL">
+                    <outline text="Aplicaciones financieras"/>
+                    <outline text="ERP y CRM"/>
+                    <outline text="Datos estructurados"/>
+                </outline>
+                <outline text="NoSQL">
+                    <outline text="Big Data"/>
+                    <outline text="Tiempo real"/>
+                    <outline text="Datos no estructurados"/>
+                </outline>
+            </outline>
+        </outline>
+    </body>
+</opml>
